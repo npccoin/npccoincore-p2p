@@ -56,7 +56,7 @@
     "url": "https://github.com/npccoin/npccoincore-p2p.git"
   },
   "dependencies": {
-    "@npccoin/npccoincore-lib": "^0.18.0",
+    "@npccoin/npccoincore-lib": "^0.17.9",
     "bloom-filter": "^0.2.0",
     "mocha": "^5.2.0",
     "node-buffers": "^0.1.1",
