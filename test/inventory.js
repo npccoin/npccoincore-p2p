@@ -4,12 +4,12 @@
 
 var should = require('chai').should();
 
-var dashcore = require('@dashevo/dashcore-lib');
+var npccoincore = require('@npccoin/npccoincore-lib');
 var P2P = require('../');
 var Inventory = P2P.Inventory;
-var BufferUtils = dashcore.util.buffer;
-var BufferWriter = dashcore.encoding.BufferWriter;
-var BufferReader = dashcore.encoding.BufferReader;
+var BufferUtils = npccoincore.util.buffer;
+var BufferWriter = npccoincore.encoding.BufferWriter;
+var BufferReader = npccoincore.encoding.BufferReader;
 
 describe('Inventory', function() {
 

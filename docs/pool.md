@@ -5,8 +5,8 @@ The quickest way to get connected is to run the following:
 
 ```javascript
 
-var Pool = require('dashcore-p2p').Pool;
-var Networks = require('@dashevo/dashcore-lib').Networks;
+var Pool = require('npccoincore-p2p').Pool;
+var Networks = require('@npccoin/npccoincore-lib').Networks;
 
 var pool = new Pool({network: Networks.livenet});
 

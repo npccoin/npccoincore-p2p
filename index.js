@@ -1,4 +1,4 @@
-var dashcore = require('@dashevo/dashcore-lib');
-dashcore.P2P = require('./lib');
+var npccoincore = require('@npccoin/npccoincore-lib');
+npccoincore.P2P = require('./lib');
 
-module.exports = dashcore.P2P;
+module.exports = npccoincore.P2P;

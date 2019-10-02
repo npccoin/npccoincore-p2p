@@ -1,8 +1,8 @@
 {
-  "name": "@dashevo/dashcore-p2p",
+  "name": "@npccoin/npccoincore-p2p",
   "version": "1.2.0",
-  "description": "Interface to the dash P2P network for Dashcore",
-  "author": "BitPay <dev@bitpay.com>",
+  "description": "Interface to the npccoin P2P network for NPCcoincore",
+  "author": "NPCcoin <npccoin@gmail.com>",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -10,6 +10,10 @@
     "coverage": "nyc mocha"
   },
   "contributors": [
+    {
+      "name": "Estilodevida",
+      "email": "estilodevidanpc@gmail.com"
+    },
     {
       "name": "Yemel Jardi",
       "email": "yemel@bitpay.com"
@@ -43,16 +47,16 @@
     }
   ],
   "keywords": [
-    "bitcoin",
+    "npccoin",
     "bitcore",
-    "dashcore"
+    "npccoincore"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashevo/dashcore-p2p.git"
+    "url": "https://github.com/npccoin/npccoincore-p2p.git"
   },
   "dependencies": {
-    "@dashevo/dashcore-lib": "^0.17.6",
+    "@npccoin/npccoincore-lib": "^0.17.6",
     "bloom-filter": "^0.2.0",
     "mocha": "^5.2.0",
     "node-buffers": "^0.1.1",
