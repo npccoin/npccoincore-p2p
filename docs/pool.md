@@ -6,7 +6,7 @@ The quickest way to get connected is to run the following:
 ```javascript
 
 var Pool = require('npccoincore-p2p').Pool;
-var Networks = require('@npccoin/npccoincore-lib').Networks;
+var Networks = require('npccoincore-lib').Networks;
 
 var pool = new Pool({network: Networks.livenet});
 

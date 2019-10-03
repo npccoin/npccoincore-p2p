@@ -6,7 +6,7 @@ var chai = require('chai');
 var should = chai.should();
 var sinon = require('sinon');
 
-var npccoincore = require('@npccoin/npccoincore-lib');
+var npccoincore = require('npccoincore-lib');
 var _ = npccoincore.deps._;
 var Random = npccoincore.crypto.Random;
 var BN = npccoincore.crypto.BN;

@@ -2,7 +2,7 @@
   "name": "@npccoin/npccoincore-p2p",
   "version": "1.2.0",
   "description": "Interface to the npccoin P2P network for NPCcoincore",
-  "author": "NPCcoin <npccoin@gmail.com>",
+  "author": "NPCcoin Core Developers <npccoin@gmail.com>",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -59,7 +59,7 @@
     "bloom-filter": "^0.2.0",
     "mocha": "^5.2.0",
     "node-buffers": "^0.1.1",
-    "npccoincore-lib": "^0.17.9",
+    "npccoincore-lib": "^0.18.0",
     "socks5-client": "^1.2.6",
     "test": "^0.6.0"
   },

@@ -4,7 +4,7 @@
 
 var should = require('chai').should();
 
-var npccoincore = require('@npccoin/npccoincore-lib');
+var npccoincore = require('npccoincore-lib');
 var P2P = require('../');
 var Inventory = P2P.Inventory;
 var BufferUtils = npccoincore.util.buffer;
