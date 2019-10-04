@@ -1,6 +1,6 @@
 {
   "name": "@npccoin/npccoincore-p2p",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Interface to the npccoin P2P network for NPCcoincore",
   "author": "NPCcoin Core Developers <npccoin@gmail.com>",
   "main": "index.js",
@@ -59,7 +59,7 @@
     "bloom-filter": "^0.2.0",
     "mocha": "^5.2.0",
     "node-buffers": "^0.1.1",
-    "npccoincore-lib": "^0.18.0",
+    "npccoincore-lib": "^0.18.2",
     "socks5-client": "^1.2.6",
     "test": "^0.6.0"
   },
@@ -70,7 +70,7 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.18.0",
     "mocha": "^5.2.0",
-    "nyc": "^13.3.0",
+    "nyc": "^14.1.1",
     "sinon": "^1.17.7"
   },
   "license": "MIT"
